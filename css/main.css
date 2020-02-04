@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap');
+/* global styles */
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, a {
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+	word-spacing: 2px;
+}
+
+h1 {
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+h2 {
+  color: #fff;
+  padding: 20px;
+  font-size: 35px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
+p {
+	color: #777;
+	font-weight: 300;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+a.link-btn {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 15px 40px;
+	border: 1px solid #636363;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+a.link-btn:hover {
+  color: #e6e5e4;
+  background-color: #5c6b6c;
+}
+/* global styles */
+
+/* header */
+header {
+  background-color: #ddc3ac;
+}
+
+header nav {
+  padding: 25px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	vertical-align: middle;
+	border-bottom: 1px solid #ddc3ac;
+}
+
+header nav ul li a h1 {
+  font-size: 35px;
+  text-transform: unset;
+}
+
+header nav ul li a:hover {
+	color: #5c6b6c;
+	border-bottom: 1px solid #5c6b6c;
+}
+
+.header-content {
+  text-align: center;
+  padding: 60px 0 120px;
+  width: 390px;
+  margin: auto;
+}
+
+.header-content a {
+  margin: 20px;
+  font-size: 14px;
+}
+/* header */
+
+/* top-yoga sec */
+.top-yoga {
+  overflow: hidden;
+}
+
+.top-yoga-bg {
+	background-image: url(../images/bg-1.jpg);
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	width: 50%;
+	height: 566px;
+}
+
+.top-yoga-content {
+	float: left;
+	width: 50%;
+	padding: 100px 0 100px 25px;
+}
+
+.top-yoga article {
+	width: 380px;
+	text-align: center;
+	padding: 20px;
+}
+
+.top-yoga-content p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 35px;
+}
+
+.top-yoga-content h3 {}
+/* top-yoga sec */
+
+/* yoga-types */
+.yoga-types {
+	background-color: #f0f0f0;
+	padding: 100px 0 110px;
+	text-align: center;
+}
+
+.single-yoga-type {
+  border-bottom: 1px solid #fff;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+ }
+
+.single-yoga-type h4 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.single-yoga-type p {
+  margin: 20px 0;
+  color: #777;
+  line-height: 1.5;
+  padding: 0 30px;
+  font-size: 18px;
+}
+
+.yoga-types a {
+  margin-top: 20px;
+}
+/* yoga-types */
+
+/* summer sec */
+.summer-sec {
+	overflow: hidden;
+}
+
+.summer-bg {
+	background-image: url(../images/bg-2.jpg);
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	width: 50%;
+	height: 658.33px;
+}
+
+.summer-content {
+	float: left;
+	width: 50%;
+	padding: 100px 0 100px 30px;
+}
+
+.summer-sec article {
+	width: 390px;
+	text-align: center;
+	padding: 20px;
+}
+
+.summer-content p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 35px;
+}
+
+.summer-content h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.summer-content h5 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.summer-content a {
+  margin-top: 35px;
+}
+/* summer sec */
+
+/* about sec */
+.about-sec {
+	overflow: hidden;
+}
+
+.about-content {
+	float: left;
+	width: 50%;
+	padding: 100px 35px 100px 30px;
+}
+
+.about-content article {
+	width: 390px;
+	text-align: center;
+	padding: 20px;
+	margin-left: auto;
+}
+
+.about-content p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 35px;
+}
+
+.about-content a {
+  margin-top: 35px;
+}
+
+.about-bg {
+	background-image: url(../images/bg-3.jpg);
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	width: 50%;
+	height: 716.33px;
+}
+/* about sec */
+
+/* feel sec */
+.feel-sec {
+  background-color: #f4d4c1;
+  text-align: center;
+  padding: 140px 60px 160px;
+}
+
+.feel-content {
+  width: 365px;
+  margin: auto;
+}
+
+.feel-sec a {
+  margin-top: 20px;
+}
+/* feel sec */
+
+/* footer */
+footer {
+  background-color: #ececec;
+  padding: 80px;
+}
+
+.images-sec {
+  overflow: hidden;
+  width: 408px;
+  margin: auto;
+}
+
+.images-sec div {
+  height: 120px;
+  width: 120px;
+  float: left;
+  margin: 0 8px;
+}
+
+.images-sec div:nth-child(1) {
+	background-image: url(../images/bg-4.jpg);
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.images-sec div:nth-child(2) {
+	background-image: url(../images/bg-5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.images-sec div:nth-child(3) {
+	background-image: url(../images/bg-6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.social-links {
+	text-align: center;
+}
+
+.social-links ul {
+  margin: 10px 0 10px;
+}
+
+.social-links ul li {
+  display: inline;
+}
+
+.social-links ul li a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.social-links ul li a:hover {
+	color: #5c6b6c;
+}
+
+.footer-links ul {
+}
+
+.footer-links ul li  {
+  display: inline;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin: 0 5px;
+}
+
+.footer-links ul li a:hover {
+	color: #5c6b6c;
+}
+/* footer */
+
+/* transition effect */
+header nav ul li a, a.link-btn, .social-links ul li a, .footer-links ul li a {
+	-webkit-transition: 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+	-moz-transition: 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+	-ms-transition: 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+	-o-transition: 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+	transition: 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+/* transition effect */
